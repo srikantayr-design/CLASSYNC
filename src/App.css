@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* -------------------------
+   OUR NEW BEAUTIFUL UI
+--------------------------*/
+
+/* Student background */
+.student-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: white;
+  padding-bottom: 50px;
+}
+
+/* Teacher background */
+.teacher-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #00b09b, #96c93d);
+  color: white;
+  padding-bottom: 50px;
+}
+
+/* Glass card effect */
+.glass-card {
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px auto;
+  width: 85%;
+  border: 1px solid rgba(255,255,255,0.25);
+  color: white;
+}
+
+/* Table styling */
+table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+table th {
+  background: rgba(255,255,255,0.2);
+  padding: 10px;
+}
+
+table td {
+  background: rgba(255,255,255,0.1);
+  padding: 8px;
+}
+
+button {
+  padding: 7px 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: scale(1.02);
+}
+
+select {
+  padding: 7px;
+  border-radius: 8px;
+  border: none;
+}

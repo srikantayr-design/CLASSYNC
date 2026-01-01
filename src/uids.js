@@ -1,0 +1,10 @@
+export const UIDS = {
+  CHARAN: "7cVZROVocYZYNPmFVcMX1qLIzkE2",
+  SNEHA: "IUFCsqjeKxR91438vxzCBAFgdra2",
+  RAHUL: "Lecf8vAaZTWGdtRTdnU0sQ9eElM2",
+  ARJUN: "RWxEXvw5FcOcXNcf9BdaZATNJey2",
+  MEERA: "XLcaXNCqAsM8QpKQZSdpc7CEhEE3",
+  PRANAV: "js0jXlpwU6QBBawA6leZjzrMMOv2",
+  SRIKANTA: "oePr3lky9fWCSsHQe8sN9LUljV32",
+  PRATHAM: "oy05X4KUMdYHPwwrffxvJWz1yeY2"
+};
